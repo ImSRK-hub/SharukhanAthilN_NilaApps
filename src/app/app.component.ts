@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { CommonService } from './common.service';
 
 
 @Component({
@@ -6,7 +7,18 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'nilaApps-Demo-Project';
-  selectedCourseID = "BA3102";
+
+  selectedCourseDetails : any = null;
+  selectedCourseID:any = null;
+
+  constructor(private commonService: CommonService){}
+
+  ngOnInit(): void {
+      this.commonService.getselectedCourseDetailsURL().subscribe(data => {
+        this.selectedCourseDetails = data['courseDetails'];
+        this.selectedCourseID = this.selectedCourseDetails.courseCode;
+      });
+  }
 }

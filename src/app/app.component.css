@@ -9,24 +9,70 @@
     position: relative;
     left: 10px;
     background-color: #d6d9dd;
-    height: 40px;
-    width: 150px;
     border-radius: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+@media (min-width: 980px) {
+    .tot-stud,.course-avg {
+        height: 45px !important;;
+    }
+    .tot-stud{
+        width: 200px !important;
+    }
+    .course-avg{
+        width: 260px !important;
+    }
+}
+@media (max-width: 980px) {
+    .tot-stud,.course-avg {
+        height:30px !important;
+    }
+    .tot-stud{
+        width: 175px !important;
+    }
+    .course-avg{
+        /* margin-top: 20px; */
+        width: 225px !important;
+    }
+    .tot-stud-count,.course-avg-mark{
+        font-size: 16px !important;
+        font-weight: 800 !important;
+        margin-left: 10px !important;
+    }
+    .chart-div{
+        margin-top: 20px;
+    }
+    .course-details-divs{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 905px) {
+
+    .course-avg{
+        margin-top: 20px !important;
+    }
+
+}
+
 .course-avg{
     position: relative;
     margin-left: 30px;
     background-color: #d6d9dd;
-    height: 40px;
-    width: 200px;
     border-radius: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.tot-stud-count,.course-avg-mark{
+    font-size: 21px;
+    font-weight: 800;
+    margin-left: 25px;
 }
 
 /* ---------------------------------- */

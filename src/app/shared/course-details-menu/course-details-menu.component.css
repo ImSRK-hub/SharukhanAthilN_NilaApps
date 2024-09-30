@@ -17,6 +17,10 @@
     font-weight: 600;
 }
 
+.course-credit{
+    font-weight: 600;
+}
+
 /* Course outcome */
 
 .co-outter-div {
@@ -59,3 +63,14 @@
 
 /* ------------------------------------ */
 
+@media (max-width: 1270px) {
+    .outcome-div,.PO-div {
+        width: 45px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .outcome-div,.PO-div {
+        width: 75px !important;
+    }
+}
