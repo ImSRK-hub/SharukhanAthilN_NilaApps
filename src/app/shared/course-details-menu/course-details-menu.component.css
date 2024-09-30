@@ -1,0 +1,61 @@
+.course-details-outer-div{
+    /* padding: 12px; */
+    border: 1px solid rgb(166, 165, 165);
+    border-radius: 5px;
+    padding-top: 10px;
+    /* max-width: 200px; */
+}
+
+/* @media (min-width: 768px) {
+    .course-details-outer-div {
+        flex: 0 0 auto;
+        width: 60%;
+    }
+} */
+
+.common-header{
+    font-weight: 600;
+}
+
+/* Course outcome */
+
+.co-outter-div {
+    display: inline-block;
+    margin-bottom: 8px;
+    /* width: 60px;
+    height: 30px; */
+}
+
+.outcome-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 60px;
+    background-color: #a7c88f;
+    border-radius: 5px;
+    font-weight: 500;
+}
+/* --------------------------------- */
+
+/* Program outcomes */
+
+.po-outter-div{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.PO-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 60px;
+    background-color: #2e6995;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/* ------------------------------------ */
+

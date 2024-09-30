@@ -1,0 +1,17 @@
+.student-attendance-graph-div{
+    border: 1px solid rgb(166, 165, 165);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.chart-canva{
+    max-height: 300px;
+    max-width: 800px;
+}
+
+@media (min-width: 768px) {
+    .chart-canva {
+        flex: 0 0 auto;
+        height: 300px!important;
+    }
+}

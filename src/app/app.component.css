@@ -1,0 +1,100 @@
+.main-container{
+    border-radius: 6px;
+    box-shadow: 2px 2px 9px rgb(103, 102, 102);
+    width: 100%;
+}
+
+/* tot stud & Avg attendance cards */
+.tot-stud{
+    position: relative;
+    left: 10px;
+    background-color: #d6d9dd;
+    height: 40px;
+    width: 150px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-avg{
+    position: relative;
+    margin-left: 30px;
+    background-color: #d6d9dd;
+    height: 40px;
+    width: 200px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------------------------------- */
+
+.asses-progress-div{
+    margin-top: 10px;
+}
+
+.assess-progress-txt,.stud-attendance-txt{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* extras  */
+
+.left-extra-menu{
+    min-height: 80%;
+    max-height: 100%;
+    position: relative;
+    margin-left: 2vw;
+    width: 22vw;
+    box-shadow: 3px 2px 10px rgb(103, 102, 102);
+}
+
+.top-extra-menu{
+    height: 20vh;
+    width: 100%;
+    box-shadow: -5px 3px 5px rgb(103, 102, 102);
+    border-radius: 6px;
+}
+
+.back-btn-div{
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    box-shadow: 3px 2px 5px grey;
+    display: inline-block;
+}
+
+.back-btn-div:hover{
+    border: 2px solid #86d9fb
+}
+
+.back-btn-arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  .c-e-txt{
+    display: inline-block;
+    width: 226px;
+    height: 30px;
+    font-weight: 650;
+    font-size: 16px;
+    padding-top: 2px;
+  }
+
+  .common-background{
+    background-color: #FFFFFF;
+  }
+
+
+
+
+
+

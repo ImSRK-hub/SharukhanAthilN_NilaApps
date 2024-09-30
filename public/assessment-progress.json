@@ -1,0 +1,21 @@
+{
+    "courseProgressDetails":[
+        {
+            "courseCode": "BA3102",
+            "labels":["Assignment", "Quiz", "Presentation", "Lab", "Viva"],
+            "ProgressDetails":[
+                {"label":"week1", "values":[26,90,70,45,80]},
+                {"label":"week2", "values":[72,40,42,79,0]},
+                {"label":"week3", "values":[50,73,23,0,0]},
+                {"label":"week4", "values":[-1,78,0,0,0]},
+                {"label":"week5", "values":[0,25,0,0,0]},
+                {"label":"week6", "values":[0,53,0,0,0]},
+                {"label":"week7", "values":[0,-1,0,0,0]},
+                {"label":"week8", "values":[0,-1,0,0,0]},
+                {"label":"week9", "values":[0,-1,0,0,0]}
+
+            ]
+
+        }
+    ]
+}

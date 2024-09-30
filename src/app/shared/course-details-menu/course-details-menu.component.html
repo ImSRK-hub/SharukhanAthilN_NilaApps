@@ -1,0 +1,47 @@
+<div class="d-flex flex-column course-details-outer-div" *ngIf="courseDetails">
+    <div class="px-3">
+        <h5 class="course-code-H common-header">Course Code</h5>
+        <p class="course-code-D">{{courseDetails.courseCode}}</p>
+        <hr/>
+    </div>
+    <div class="px-3">
+        <h5 class="course-code-H common-header">Course Name</h5>
+        <p class="course-code-D">{{courseDetails.courseName}}</p>
+        <hr/>
+    </div>
+    <div class="px-3">
+        <h5 class="course-code-H common-header">Course Type</h5>
+        <p class="course-code-D">{{courseDetails.courseType}}</p>
+        <hr/>
+    </div>
+    <div class="px-3">
+        <h5 class="course-code-H common-header">Course Period</h5>
+        <p class="course-code-D">{{courseDetails.coursePeriod}}</p>
+        <hr/>
+    </div>
+    <div class="px-3">
+        <h5 class="course-code-H common-header">Credits ({{addCredits()}})</h5>
+            <p class="credit-list-item">Lecture - {{courseDetails.credits['lecture']}}</p>
+            <p class="credit-list-item">Tutorial - {{courseDetails.credits['tutorial']}}</p>
+            <p class="credit-list-item">Practical - {{courseDetails.credits['practical']}}</p>
+            <p class="credit-list-item">Project - {{courseDetails.credits['project']}}</p>
+        <hr/>
+    </div>
+    <div class="px-3" >
+        <h5 class="course-outcome-txt common-header">Course Outcomes (COs)</h5>
+        <div *ngFor="let courseOutcome of courseDetails.courseOutcomes " class="col-3 col-md-4 co-outter-div">
+            <span class="outcome-div" >
+                {{courseOutcome}}
+            </span>
+        </div>
+        <hr/>
+    </div>
+    <div class="px-3">
+        <h5 class="course-code-H common-header">Mapped to this Course</h5>
+        <div *ngFor="let PO of courseDetails.MappedToThisCourse" class="col-3 col-md-4 po-outter-div">
+            <span class="PO-div">
+                {{PO}}
+            </span>
+        </div>
+    </div>
+</div>
