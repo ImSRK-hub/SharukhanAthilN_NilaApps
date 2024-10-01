@@ -118,6 +118,8 @@
     margin-left: 2vw;
     width: 22vw;
     box-shadow: 3px 2px 10px rgb(103, 102, 102);
+    display: flex;
+    justify-content: center;
 }
 
 .top-extra-menu{
@@ -125,6 +127,9 @@
     width: 100%;
     box-shadow: -5px 3px 5px rgb(103, 102, 102);
     border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .back-btn-div{
