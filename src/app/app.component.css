@@ -44,6 +44,7 @@
     }
     .chart-div{
         margin-top: 20px;
+        /* padding: 0px !important; */
     }
     .course-details-divs{
         display: flex;
@@ -51,10 +52,31 @@
     }
 }
 
-@media (max-width: 905px) {
+@media (max-width: 890px) {
 
     .course-avg{
         margin-top: 20px !important;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .course-avg{
+        margin-top: 0px !important;
+    }
+    .chart-div{
+        padding: 0px !important;
+    }
+
+}
+@media (max-width: 575px) {
+
+    .course-avg{
+        margin-top: 20px !important;
+    }
+
+    .course-details-container{
+        margin-left: 0.6rem !important;
     }
 
 }
@@ -138,6 +160,12 @@
   .common-background{
     background-color: #FFFFFF;
   }
+
+  @media (max-width: 767px) {
+    .left-extra-menu{
+        display: none;
+    }
+}
 
 
 

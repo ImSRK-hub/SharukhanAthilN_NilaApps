@@ -30,6 +30,12 @@
     height: 30px; */
 }
 
+@media (max-width: 1270px) {
+    .co-outter-div,.po-outter-div {
+        width: 50% !important;
+    }
+}
+
 .outcome-div{
     display: flex;
     justify-content: center;
@@ -71,6 +77,6 @@
 
 @media (max-width: 768px) {
     .outcome-div,.PO-div {
-        width: 75px !important;
+        width: 45px !important;
     }
 }
